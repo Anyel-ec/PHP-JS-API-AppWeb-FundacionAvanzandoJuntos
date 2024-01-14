@@ -157,7 +157,7 @@
               <h2>Inscribirse al Curso</h4>
                 <p>Su dirección de correo electrónico no será publicada.
                 </p>
-                <form action="https://formspree.io/f/mbjnlyvw">
+                <form action="https://formspree.io/f/mbjnlyvw" method="post">
                   <div class="row">
                     <div class="col-12">
                       <select class="form-select" id="selectCortes" aria-label="Selecciona un tipo de corte de cabello">
@@ -165,20 +165,20 @@
                       </select>
                     </div>
                     <div class="col-md-6 mt-2 form-group">
-                      <input name="name" type="text" class="form-control" placeholder="Tu nombre">
+                      <input name="name" type="text" class="form-control" placeholder="Nombre Completo" required>
                     </div>
                     <div class="col-md-6 mt-2  form-group">
-                      <input name="email" type="text" class="form-control" placeholder="ejemplo@gmail.com">
+                      <input name="email" type="text" class="form-control" placeholder="Correo" required>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col mt-2 form-group">
-                      <input name="website" type="text" class="form-control" placeholder="0999XXXXX99">
+                      <input name="website" type="text" class="form-control" placeholder="Celular"required>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col mt-2 form-group">
-                      <textarea name="comment" class="form-control" placeholder="Mensaje"></textarea>
+                      <textarea name="comment" class="form-control" placeholder="Mensaje" ></textarea>
                     </div>
                   </div>
                   <button type="submit" class="btn btn-primary mt-2 text-center">Inscribirse</button>
