@@ -1,0 +1,27 @@
+.social-icons {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column; /* Cambiado a dirección vertical */
+    align-items: center; /* Alinea los iconos al centro verticalmente */
+}
+
+/* Estilo adicional para los iconos */
+.social-icons i {
+    font-size: 24px;
+    margin-bottom: 10px; /* Espacio entre los iconos */
+    color: var(--color-primario);
+    transition: color 0.3s;
+}
+
+/* Cambiar color al pasar el ratón sobre los iconos */
+.social-icons i:hover {
+    color: #2d6843;
+}
